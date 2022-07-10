@@ -1,0 +1,34 @@
+body{
+ background-image: url("nashvilleskyline.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+ul{
+  color: white;
+  list-style-image: url('star.png');
+}
+#wrapper{
+ width: 60%;
+ margin: auto;
+ margin-top: 30px;
+}
+
+.black-background{
+  background-color:black;
+}
+
+.imageheight{
+  height: 300px;
+}
+
+.imageborder {
+    border: 40px solid black;
+    border-image-slice:48 44 68 56;
+    border-image-width:40px 40px 40px 40px;border-image-outset:0px 0px 0px 0px;
+    border-image-repeat:stretch stretch;
+    border-image-source:url('guitar.jpg'); 
+}
+
+main{
+  margin: 10px;
+}
